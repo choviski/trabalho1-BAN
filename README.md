@@ -22,10 +22,15 @@ Composer: sudo apt install composer
 3. copie e cola o arquivo .env.example no seu projeto e renomei-o para .env após isso configure o mesmo para suas configurações locais, por exemplo:
 
 DB_CONNECTION=pgsql
+
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_DATABASE= <nome_do_seu_data_base>
+
 DB_USERNAME= <nome_do_seu_user>
+
 DB_PASSWORD= <sua_senha>
 
 4. rode o comando php artisan key:generate
